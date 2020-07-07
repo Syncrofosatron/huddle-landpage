@@ -1,0 +1,129 @@
+html {
+  position: static;
+  background-color: hsl(257, 40%, 49%);
+}
+
+.container {
+  position: absolute;
+  background-color: hsl(257, 40%, 49%);
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.bg-image {
+  position: absolute;
+  text-align: center;
+  background-color: hsl(257, 40%, 49%);
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.mockup-image {
+  position: relative;
+  padding-top: 20%;
+  text-align: center;
+  z-index: 1;
+}
+
+.text {
+  color: #FFF;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+}
+
+.text1 {
+  color: #FFF;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+}
+
+.button {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 5% 0;
+}
+
+h3 {
+  padding: 0 70px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.socialmedia {
+  text-align: center;
+  padding: 5%;
+  color: #FFF;
+}
+
+/* Desktop View */
+
+@media (min-width: 1000px) {
+
+  .mockup-image {
+    position: absolute;
+    padding-top: 15%;
+    text-align: center;
+    z-index: 1;
+    right: 50%;
+  }
+
+  .text {
+    position: absolute;
+    color: #FFF;
+    font-size: 2rem;
+    text-align: left;
+    padding: 5%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    left: 50%;
+    top: 100%;
+  }
+
+  .text1 {
+    position: absolute;
+    color: #FFF;
+    font-size: 1rem;
+    text-align: left;
+    padding: 5%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    left: 50%;
+    top: 180%;
+    font-weight: 200;
+  }
+
+  .button {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    padding: 5% 0;
+    left: 55%;
+    top: 270%;
+  }
+
+  .socialmedia {
+    display: inline-block;
+    position: relative;
+    color: #FFF;
+    left: 80%;
+    top: 530px;
+    z-index: 2;
+  }
+
+}
