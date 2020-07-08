@@ -15,8 +15,9 @@ html {
 .logo {
   position: absolute;
   padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 5%;
+  padding-left: 2%;
+  width: 80%;
+  height: auto;
 }
 
 .bg-image {
@@ -41,28 +42,34 @@ html {
 .text {
   position: relative;
   color: #FFF;
-  font-size: 3rem;
+  font-size: 1rem;
   text-align: center;
   padding: 5%;
   font-family: 'Poppins', sans-serif;
-  line-height: 2;
+  line-height: 1;
   z-index: 2;
   top: 50px;
 }
 
 .text1 {
+  position: relative;
   color: #FFF;
-  font-size: 2rem;
+  font-size: 0.5rem;
   text-align: center;
   padding: 5%;
   font-family: 'Poppins', sans-serif;
-  line-height: 2;
+  line-height: 1.5;
+  top: 50px;
+  z-index: 2;
 }
 
 .button {
+  position: relative;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   padding: 5% 0;
+  top: 50px;
+  z-index: 2;
 }
 
 h3 {
@@ -72,9 +79,11 @@ h3 {
 }
 
 .socialmedia {
+  position: relative;
   text-align: center;
   padding: 5%;
   color: #FFF;
+  top: 50px;
 }
 
 /* Desktop View */
